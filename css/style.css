@@ -104,6 +104,13 @@ ul {
 .about__img {
   width: 50px;
   border-radius: 50%;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.about__img:hover {
+  border-color: #02a7ad;
+  box-shadow: 0px 0px 5px #02a7ad;
 }
 
 /* CARD SECTION */
@@ -269,8 +276,17 @@ ul {
 
 .card-user-img {
   width: 150px;
+  height: 150px;
   border-radius: 50%;
   margin-bottom: 30px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+  cursor: pointer;
+}
+
+.card-user-img:hover {
+  border-color: #02a7ad;
+  box-shadow: 0px 0px 5px #02a7ad;
 }
 
 .user-name {
