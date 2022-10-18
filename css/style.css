@@ -10,6 +10,7 @@
 body {
   background-color: #20243f;
   padding-top: 50px;
+  font-weight: 500;
 }
 
 a {
@@ -18,7 +19,7 @@ a {
 }
 
 a:hover {
-    color: rgba(26, 209, 215, 0.733);
+  color: rgba(26, 209, 215, 0.733);
 }
 
 span,
@@ -32,7 +33,7 @@ ul {
 }
 
 .wrapper {
-  max-width: 1130px;
+  max-width: 1000px;
   padding: 0 10px;
   margin-right: auto;
   margin-left: auto;
@@ -149,7 +150,7 @@ ul {
 }
 
 .menu-box-btn:hover {
-    background-color: rgba(26, 209, 215, 0.733);
+  background-color: rgba(26, 209, 215, 0.733);
 }
 
 .msg {
@@ -160,153 +161,209 @@ ul {
 }
 
 .msg-img {
-    width: 25px;
-    margin-right: 13px;
+  width: 25px;
+  margin-right: 13px;
 }
 
 .msg-text {
-    color: #fff;
-    font-weight: 500;
-    text-transform: capitalize;
-    margin-right: auto;
-    font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-right: auto;
+  font-size: 15px;
 }
 
 .msg-count {
-    width: 50px;
-    height: 25px;
-    border-radius: 15px;
-    background-color: #4F547A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-weight: 500;
-    font-size: 12px;
+  width: 50px;
+  height: 25px;
+  border-radius: 15px;
+  background-color: #4f547a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
 }
 
 .card-stat {
-    text-align: center;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .stat-title {
-    font-weight: 500;
-    color: #fff;
-    text-transform: uppercase;
-    margin-bottom: 25px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 25px;
 }
 
 .stat {
-    font-weight: 500;
-    width: 200px;
-    height: 200px;
-    border: 40px solid #02a7ad;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  font-weight: 500;
+  width: 200px;
+  height: 200px;
+  border: 40px solid #02a7ad;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .stat-month {
-    text-transform: uppercase;
-    font-size: 25px;
-    color: #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #fff;
 }
 .stat-year {
-    text-transform: uppercase;
-    color: #6970a6;
-    font-size: 25px;
+  text-transform: uppercase;
+  color: #6970a6;
+  font-size: 25px;
 }
 
 .card-user-info {
-    color: #fff;
+  color: #fff;
 }
 
 .plus-wrapper {
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
 }
 
 .plus {
-    color: #6970a6;
-    border: 2px solid #6970a6;
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    font-weight: 800;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  color: #6970a6;
+  border: 2px solid #6970a6;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .user-info-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 70%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
 }
 
 .card-user-img {
-    width: 150px;
-    border-radius: 50%;
-    margin-bottom: 30px;
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 30px;
 }
 
 .user-name {
-    text-transform: capitalize;
-    margin-bottom: 15px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
 }
 
 .user-text {
-    text-align: center;
-    font-size: 15px;
-    line-height: 1;
-    color: #8d8d8d;
-    font-weight: 400;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1;
+  color: #8d8d8d;
+  font-weight: 400;
 }
 
-
 .user-btns-wrapper {
-    display: flex;
+  display: flex;
 }
 
 .user-info-btn {
-    flex-grow: 1;
-    background-color: transparent;
-    border: unset;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  flex-grow: 1;
+  background-color: transparent;
+  border: unset;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .user-info-btn:nth-child(2) {
-    border-right: 1px solid #20243f;
-    border-left: 1px solid #20243f;
-    border-top: 3px solid #02a7ad;
+  border-right: 1px solid #20243f;
+  border-left: 1px solid #20243f;
+  border-top: 3px solid #02a7ad;
 }
 .user-info-btn:nth-child(1) {
-    border-top: 3px solid #f0f008e5;
+  border-top: 3px solid #f0f008e5;
 }
 .user-info-btn:nth-child(3) {
-    border-top: 3px solid #ec0909;
+  border-top: 3px solid #ec0909;
 }
 
 .user-info-btn-img {
-    width: 25px;
-    margin-right: 10px;
+  width: 25px;
+  margin-right: 10px;
 }
 
 .user-info-btn-info {
-    color: #fff;
-    font-weight: 500;
+  color: #fff;
+  font-weight: 500;
+}
+
+.card-wether {
+}
+
+.geo-place {
+  background-color: #ce3049;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.geo-loc-img {
+  margin-right: 10px;
+}
+
+.geo-name {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.geo-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #e94963;
+}
+
+.geo-info-f {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-transform: uppercase;
+  margin-right: 15px;
+}
+
+.date {
+  font-size: 15px;
+}
+
+.farangeyt {
+  font-size: 80px;
+}
+
+.f-sup {
+  font-size: 40px;
+  margin-left: -20px;
+  font-weight: 800;
+}
+
+.geo-img {
+    width: 100px;
 }
