@@ -365,9 +365,9 @@ ul {
   width: 100px;
 }
 
-.cars-sub {
-    padding: 30px 15px;
-    text-align: center;
+.cards-sub {
+  padding: 30px 15px;
+  text-align: center;
 }
 
 .sub-title {
@@ -379,39 +379,90 @@ ul {
 }
 
 .sub-input-wrapper {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-    background-color: #50587D;
-    padding: 10px 5px;
-    border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #50587d;
+  padding: 10px 5px;
+  border-radius: 10px;
 }
 
 .sub-img {
-    width: 25px;
-    margin-right: 10px;
+  width: 25px;
+  margin-right: 10px;
 }
 
 .sub-input {
-    background: transparent;
-    border: unset;
-    outline: unset;
-    color: #fff;
-    font-size: 12px;
+  background: transparent;
+  border: unset;
+  outline: unset;
+  color: #fff;
+  font-size: 12px;
 }
 
 .sub-input::placeholder {
-    color: #fff;
+  color: #fff;
 }
 
 .sub-btn {
-    width: 70%;
-    padding: 13px 15px;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 700;
-    background-color: #02a7ad;
-    color: #fff;
-    border: unset;
-    border-radius: 10px;
+  width: 70%;
+  padding: 13px 15px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #02a7ad;
+  color: #fff;
+  border: unset;
+  border-radius: 10px;
+}
+
+.card.cards-sub.social {
+  padding: 0;
+}
+
+.social-wr {
+  padding: 30px 15px;
+}
+
+.card.cards-sub.social .sub-input-wrapper {
+  margin-bottom: 25px;
+}
+
+.card.cards-sub.social .sub-title {
+    margin-bottom: 30px;
+  }
+
+.card.cards-sub.social .sub-btn {
+  background-color: #e94a62;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.f-password {
+  font-size: 12px;
+  text-align: center;
+  color: #8d8d8d;
+  margin-bottom: 35px;
+}
+
+.sign-btn {
+  width: 100%;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: unset;
+  background-color: #3066b5;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.sign-img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.sign-text {
+  text-transform: capitalize;
 }
