@@ -14,11 +14,11 @@ body {
 
 a {
   text-decoration: none;
-  transition: opacity 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 a:hover {
-  opacity: 0.8;
+    color: rgba(26, 209, 215, 0.733);
 }
 
 span,
@@ -47,6 +47,7 @@ ul {
   justify-content: space-between;
   background-color: #394166;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .nav__list {
@@ -93,4 +94,131 @@ ul {
 .about__img {
   width: 50px;
   border-radius: 50%;
+}
+
+/* CARD SECTION */
+
+.cards-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.static-card {
+  flex-grow: 1;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  max-width: 33.33%;
+}
+
+.user-card {
+  flex-grow: 1;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  max-width: 33.33%;
+}
+
+.social-card {
+  flex-grow: 1;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  max-width: 33.33%;
+}
+
+.card {
+  background-color: #394166;
+  min-height: 80px;
+  border-radius: 10px;
+}
+
+.menu-box-btn {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border: unset;
+  background-color: #02a7ad;
+  padding: 20px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-box-btn:hover {
+    background-color: rgba(26, 209, 215, 0.733);
+}
+
+.msg {
+  padding: 20px 15px;
+  border-bottom: 1px solid #20243f;
+  display: flex;
+  align-items: center;
+}
+
+.msg-img {
+    width: 25px;
+    margin-right: 13px;
+}
+
+.msg-text {
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.msg-count {
+    width: 50px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: #4F547A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.card-stat {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-title {
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.stat {
+    font-weight: 500;
+    width: 200px;
+    height: 200px;
+    border: 40px solid #02a7ad;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat-month {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fff;
+}
+.stat-year {
+    text-transform: uppercase;
+    color: #6970a6;
+    font-size: 25px;
 }
