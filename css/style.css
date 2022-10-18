@@ -22,6 +22,15 @@ a:hover {
   color: rgba(26, 209, 215, 0.733);
 }
 
+button {
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
 span,
 img,
 button {
@@ -146,11 +155,6 @@ ul {
   text-transform: uppercase;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.menu-box-btn:hover {
-  background-color: rgba(26, 209, 215, 0.733);
 }
 
 .msg {
@@ -267,6 +271,10 @@ ul {
   margin-bottom: 15px;
 }
 
+.user-link {
+  color: #fff;
+}
+
 .user-text {
   text-align: center;
   font-size: 15px;
@@ -287,6 +295,12 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: color 0.3s ease, opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.user-info-btn:hover {
+  background-color: #02a7ad;
+  opacity: 1;
 }
 
 .user-info-btn:nth-child(2) {
@@ -296,9 +310,11 @@ ul {
 }
 .user-info-btn:nth-child(1) {
   border-top: 3px solid #f0f008e5;
+  border-bottom-left-radius: 10px;
 }
 .user-info-btn:nth-child(3) {
   border-top: 3px solid #ec0909;
+  border-bottom-right-radius: 10px;
 }
 
 .user-info-btn-img {
@@ -429,8 +445,8 @@ ul {
 }
 
 .card.cards-sub.social .sub-title {
-    margin-bottom: 30px;
-  }
+  margin-bottom: 30px;
+}
 
 .card.cards-sub.social .sub-btn {
   background-color: #e94a62;
